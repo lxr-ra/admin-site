@@ -1,7 +1,7 @@
-import Image from "next/image";
-
-export default function Home() {
-  return (
-    <h1>Hello World!</h1>
-  );
+export default async function Page({
+  searchParams,
+}: {
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>
+}) {
+  const filters = (await searchParams).filters
 }

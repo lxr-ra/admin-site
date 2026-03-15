@@ -1,12 +1,12 @@
 {
   "$schema": "https://ui.shadcn.com/schema.json",
-  "style": "olive",
+  "style": "",
   "rsc": true,
   "tsx": true,
   "tailwind": {
     "config": "tailwind.config.ts",
     "css": "src/app/globals.css",
-    "baseColor": "olive",
+    "baseColor": "Olive",
     "cssVariables": true,
     "prefix": "tw-"
   },
